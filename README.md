@@ -17,29 +17,29 @@ This project documents the full installation and configuration of **osTicket**, 
 
 ### 2. Install Prerequisites
 - ✅ **IIS (Internet Information Services)**
-  - [![IIS Admin](IIS Main Page as an Admin.png)](IIS Main Page as an Admin.png)
+  - [![IIS Admin](IIS%20Main%20Page%20as%20an%20Admin.png)](IIS%20Main%20Page%20as%20an%20Admin.png)
 - ✅ **PHP Manager for IIS**
-  - [![PHP Manager](PHP Manager Installed for IIS.png)](PHP Manager Installed for IIS.png)
+  - [![PHP Manager](PHP%20Manager%20Installed%20for%20IIS.png)](PHP%20Manager%20Installed%20for%20IIS.png)
 - ✅ **PHP Extensions**
-  - [![PHP Mods](PHP Extensions Modified.png)](PHP Extensions Modified.png)
+  - [![PHP Mods](PHP%20Extensions%20Modified.png)](PHP%20Extensions%20Modified.png)
 - ✅ **MySQL Server**
-  - [![MySQL](MySQL Server Installed.png)](MySQL Server Installed.png)
+  - [![MySQL](MySQL%20Server%20Installed.png)](MySQL%20Server%20Installed.png)
 - ✅ **Visual C++ Redistributable**
-  - [![Redistributable](Redistributable File Installed.png)](Redistributable File Installed.png)
+  - [![Redistributable](Redistributable%20File%20Installed.png)](Redistributable%20File%20Installed.png)
 
 ### 3. osTicket Installation
 - Extracted PHP files and configured the install.
-- [![osTicket Install](osTicket Installed.png)](osTicket Installed.png)
-- [![Install Confirmed](osTicket Installation Confirmation.png)](osTicket Installation Confirmation.png)
+- [![osTicket Install](osTicket%20Installed.png)](osTicket%20Installed.png)
+- [![Install Confirmed](osTicket%20Installation%20Confirmation.png)](osTicket%20Installation%20Confirmation.png)
 
 ### 4. Configure Database
 - Used **HeidiSQL** to connect and configure the osTicket database.
-- [![HeidiSQL Running](Heidi Being Ran as Admin.png)](Heidi Being Ran as Admin.png)
-- [![Database Created](osTicket Database Created.png)](osTicket Database Created.png)
+- [![HeidiSQL Running](Heidi%20Being%20Ran%20as%20Admin.png)](Heidi%20Being%20Ran%20as%20Admin.png)
+- [![Database Created](osTicket%20Database%20Created.png)](osTicket%20Database%20Created.png)
 
 ### 5. Initial Setup in Web Portal
 - Created agents, roles, departments, and teams.
-- [![Roles/Agents](osTicket_TwoAgentsCreated [ Ace & Happy ] .png)](osTicket_TwoAgentsCreated%20%5B%20Ace%20%26%20Happy%20%5D%20.png)
+- [![Roles/Agents](osTicket_TwoAgentsCreated%20%5B%20Ace%20%26%20Happy%20%5D%20.png)](osTicket_TwoAgentsCreated%20%5B%20Ace%20%26%20Happy%20%5D%20.png)
 - [![Help Topics](osTicket_HelpTopicsCreatedForUsers.png)](osTicket_HelpTopicsCreatedForUsers.png)
 
 ---
@@ -84,30 +84,7 @@ This project documents the full installation and configuration of **osTicket**, 
 
 - ✅ Deploy osTicket from scratch in a Windows environment
 - ✅ Configure IIS with PHP and MySQL backend
-- ✅ Navigate ticket lifecycle (create → assign → resolve)
-- ✅ Create and manage help topics, agents, and teams
-- ✅ Practice real-world ticketing workflows for IT support
+- ✅ Navigate ticket lifecycl
 
----
-
-## 🛠️ Troubleshooting Tips
-
-| Issue | Solution |
-|-------|----------|
-| **IIS shows 500 error** | Double-check PHP config or PHP extensions not enabled |
-| **osTicket config not writable** | Rename `ost-config.php` and set proper permissions |
-| **Database connection fails** | Verify MySQL service is running and credentials are correct |
-| **Ticket not showing on agent panel** | Ensure agent is assigned to the correct department/team |
-| **Emails not sending** | Check SMTP settings under Admin panel → Emails |
-
----
-
-## ✅ Summary
-
-This project demonstrates a full-cycle deployment and use of **osTicket**, complete with VM setup, backend stack installation, web configuration, and example support workflows — perfect for showcasing IT administration skills in a helpdesk environment.
-
----
-
-## 📬 Contact
 
 Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/kevindeonbrown)!
